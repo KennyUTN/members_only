@@ -19,11 +19,11 @@ To have this app on your pc, you need to:
 * clone this repo:
   - Clone with SSH:
   ```
-    git@github.com:kennyUTN/members-only.git
+    git@github.com:KennyUTN/members-only.git
   ```
   - Clone with HTTPS
   ```
-    https://github.com/kennyUTN/members-only.git
+    https://github.com/KennyUTN/members-only.git
   ```
 * and open the terminal inside the repository and run the bundler
   - ```$ bundle install```
