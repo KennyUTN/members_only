@@ -2,7 +2,8 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Contributors](#contributors)
+* [Author](#Author)
+* [Usage](#Usage)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
 
