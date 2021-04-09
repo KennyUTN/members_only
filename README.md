@@ -16,7 +16,7 @@ This project consists of using the [Devise gem](https://github.com/heartcombo/de
 
 To have this app on your pc, you need to:
 * have Ruby & Ruby on Rails installed in your computer
-* clone this repo
+* clone this repo:
   - Clone with SSH:
   ```
     git@github.com:kennyUTN/members-only.git
@@ -54,8 +54,13 @@ This project was built using these technologies.
 * Bulma
 
 <!-- CONTACT -->
-## Contributors
+## Author
 
+👤 **Juan Ignacio Asis**
+
+- Github: [@KennyUTN](https://github.com/Berabjesus)
+- Twitter: [@Kenny11614766](https://twitter.com/Kenny11614766)
+- Linkedin: [Ignacio Asis](https://www.linkedin.com/in/ignacio-asis-b8214b183/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
