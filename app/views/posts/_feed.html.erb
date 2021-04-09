@@ -21,9 +21,11 @@
   		</div>
   		<div class="media-content">
   			<div class="content">
+            <% if user_signed_in? %>
   				<strong><%= post.user.name %></strong><br />
   				<small><%= post.user.username %></small><br/>
-  				<p><%= post.tweet %></p>
+            <% end %>
+  				<p><%= post.post %></p>
   			</div>
         <% if user_signed_in? && current_user.id == post.user_id %>
   			<nav class="level">
