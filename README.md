@@ -1,5 +1,3 @@
-### Secret POST club
-
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -11,14 +9,14 @@
 
 ## About The Project
 
-This project consists of using the [Devise gem](https://github.com/heartcombo/devise) to have a first approach at authentication in rails. It is an application that allows users to create posts and the authors of the posts are displayed only if you, as a User, are logged in.
+This project consists of using the [Devise gem](https://github.com/heartcombo/devise) to have a first approach at authentication in rails. It is application that allows users to create posts and the authors of the posts are displayed only if, you as a User, are logged in.
 
 
 ## Installation
 
 To have this app on your pc, you need to:
 * have Ruby & Ruby on Rails installed in your computer
-* [download](https://github.com/kennyUTN/members-only) or clone this repo:
+* clone this repo
   - Clone with SSH:
   ```
     git@github.com:kennyUTN/members-only.git
@@ -41,11 +39,11 @@ To have this app on your pc, you need to:
 
 * Create a new user by clicking on the sign up button on the upper right.
 
-* While logged in, you will be able to create new posts, and also see who's the author of the previously created posts.
+* While logged in, you while be able to create new posts, and also see who's the author of the previously created posts.
 
 * You can edit and delete your own posts.
 
-* You also have to follow the obligatory rules referenced on the main page.
+* You also have to follow the obligatory rules referenced on the main page
 
 ### Built With
 This project was built using these technologies.
