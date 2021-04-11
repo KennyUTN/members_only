@@ -10,7 +10,7 @@
 
 ## About The Project
 
-This project consists of using the [Devise gem](https://github.com/heartcombo/devise) to have a first approach at authentication in rails. It is application that allows users to create posts and the authors of the posts are displayed only if, you as a User, are logged in.
+This project consists of using the [Devise gem](https://github.com/heartcombo/devise) to have a first approach at authentication in rails. It is an application that allows users to create posts and the authors of the posts are displayed only if, you as a User, are logged in.
 
 
 ## Installation
