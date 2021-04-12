@@ -8,9 +8,7 @@ module ApplicationHelper
   end
 
   def new_post_helper
-    if user_signed_in?
-      link_to 'New Post', root_path, class: 'control button is-info is-inverted'
-    end
+    link_to 'New Post', root_path, class: 'text-white nav-item nav-link' if user_signed_in?
   end
 
   def edit_user_helper
