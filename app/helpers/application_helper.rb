@@ -4,12 +4,12 @@ module ApplicationHelper
   end
 
   def flash_notice_helper
-    render partial: 'flash:_notice' if flash[:notice]
+    render partial: 'flash_notice' if flash[:notice]
   end
 
   def new_post_helper
     if user_signed_in?
-      link_to 'New Post', root_path, class: 'button is-info is-inverted'
+      link_to 'New Post', root_path, class: 'control button is-info is-inverted'
     end
   end
 
@@ -29,7 +29,7 @@ module ApplicationHelper
       link_to 'Sign In', new_user_session_path, class: 'control button is-info' unless user_signed_in?
   end
 
-  def sign_up
+  def sign_up
       link_to 'Sign Up', new_user_registration_path, class: 'control button is-info' unless user_signed_in?
   end
 end
