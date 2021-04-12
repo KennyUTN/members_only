@@ -1,3 +1,4 @@
+# rubocop:disable Layout/EndOfLine
 module ApplicationHelper
   def flash_alert_helper
     render partial: 'flash_alert' if flash[:alert]
@@ -23,3 +24,4 @@ module ApplicationHelper
     link_to 'Sign Up', new_user_registration_path, class: 'control button is-info' unless user_signed_in?
   end
 end
+# rubocop:enable Layout/EndOfLine
