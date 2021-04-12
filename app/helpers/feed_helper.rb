@@ -16,6 +16,6 @@ module FeedHelper
   end
 
   def own_post_buttons_helper(post)
-    render partial: 'own_post_buttons', locals: { post: post }  if user_signed_in? && current_user.id == post.user_id
+    render partial: 'own_post_buttons', locals: { post: post } if user_signed_in? && current_user.id == post.user_id
   end
 end
