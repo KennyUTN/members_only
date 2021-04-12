@@ -1,5 +1,5 @@
 <div class="column is-half">
-  <% if user_signed_in? %>
+  <% if user_signed_in? %>  <!-- NewPost -->
 	<article class="media box">
 		<figure class="media-left">
 			<p class="image is-64x64">
@@ -20,14 +20,14 @@
   			</figure>
   		</div>
   		<div class="media-content">
-  			<div class="content">
+   			<div class="content"> <!-- Name and username helper -->
             <% if user_signed_in? %>
   				<strong><%= post.user.name %></strong><br />
   				<small><%= post.user.username %></small><br/>
             <% end %>
   				<p><%= post.post %></p>
   			</div>
-        <% if user_signed_in? && current_user.id == post.user_id %>
+        <% if user_signed_in? && current_user.id == post.user_id %> <!--Own Post Buttons Helper-->
   			<nav class="level">
   				<div class="level-left is-mobile">
   					<%= link_to edit_post_path(post), class: "level-item" do %>
