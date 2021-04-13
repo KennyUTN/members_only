@@ -2,28 +2,29 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Contributors](#contributors)
+* [Author](#Author)
+* [Usage](#Usage)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
 
 
 ## About The Project
 
-This project consists of using the [Devise gem](https://github.com/heartcombo/devise) to have a first approach at authentication in rails. It is application that allows users to create posts and the authors of the posts are displayed only if, you as a User, are logged in.
+This project consists of using the [Devise gem](https://github.com/heartcombo/devise) to have a first approach at authentication in rails. It is an application that allows users to create posts and the authors of the posts are displayed only if, you as a User, are logged in.
 
 
 ## Installation
 
 To have this app on your pc, you need to:
 * have Ruby & Ruby on Rails installed in your computer
-* [download](https://github.com/kennyUTN/members-only) or clone this repo:
+* clone this repo:
   - Clone with SSH:
   ```
-    git@github.com:kennyUTN/members-only.git
+    git@github.com:KennyUTN/members-only.git
   ```
   - Clone with HTTPS
   ```
-    https://github.com/kennyUTN/members-only.git
+    https://github.com/KennyUTN/members-only.git
   ```
 * and open the terminal inside the repository and run the bundler
   - ```$ bundle install```
@@ -54,8 +55,13 @@ This project was built using these technologies.
 * Bulma
 
 <!-- CONTACT -->
-## Contributors
+## Author
 
+👤 **Juan Ignacio Asis**
+
+- Github: [@KennyUTN](https://github.com/Berabjesus)
+- Twitter: [@Kenny11614766](https://twitter.com/Kenny11614766)
+- Linkedin: [Ignacio Asis](https://www.linkedin.com/in/ignacio-asis-b8214b183/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

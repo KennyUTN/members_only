@@ -1,11 +1,6 @@
 <section class="section">
   <div class="container">
-    <div class="columns">
-      <% if user_signed_in? %>
-      <%= render 'profiles' %>
-      <% else %>
-      <%= render 'notlogged' %>
-      <% end %>
+    <div class="columns"> <!-- Helper aca -->
       <%= render 'feed' %>
       <%= render 'rules' %>
     </div>

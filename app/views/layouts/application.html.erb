@@ -12,17 +12,9 @@
   </head>
 
   <body>
-    <% if flash[:notice] %>
-    <div class="notification is-primary global-notification">
-      <p class="notice"><%=notice%></p>
-    </div>
-  <% end %>
+  <%= flash_notice_helper %>
 
-  <% if flash[:alert] %>
-    <div class="notification is-danger global-notification">
-      <p class="alert"><%= alert %></p>
-    </div>
-  <% end %>
+  <%= flash_alert_helper %>
 
   <nav class="navbar is-primary">
     <div class="navbar-brand">
@@ -41,25 +33,12 @@
         <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <% if user_signed_in? %>
             <%= link_to 'New Post', root_path, class: "button is-info is-inverted" %>
-            <% end %>
           </p>
-          <% if user_signed_in? %>
-            <p class="control">
-              <%= link_to current_user.name, edit_user_registration_path, class: "button is-info" %>
-            </p>
-            <p>
-              <%= link_to "Logout", destroy_user_session_path, method: :delete, class:"button is-info" %>
-            </p>
-          <% else %>
-          <p class="control">
-            <%= link_to 'Sign In', new_user_session_path, class: "button is-info" %>
-          </p>
-          <p class="control">
-            <%= link_to 'Sign Up', new_user_registration_path, class: "button is-info" %>
-          </p>
-          <% end %>
+          <%= edit_user_helper %>
+          <%= logout_helper %>
+          <%= sign_in %>
+          <%= sign_up %>
           </div>
         </div>
       </div>
